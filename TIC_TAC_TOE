@@ -7,10 +7,11 @@ void main()
     printf("NAME OF PLAYER 2: ");
     gets(pl2);
     
-    lp:
     int ind,flg,i,j,n,m,a[3][3],count,p1,p2;
-    int c1=0,c2=0,c3=0,c4=0,c5=0,c6=0,c7=0,c8=0,c9=0,e=1,b=1,c=1,d=1;
+    int c1=0,c2=0,c3=0,c4=0,c5=0,c6=0,c7=0,c8=0,c9=0;
     
+    lp:
+    c1=0,c2=0,c3=0,c4=0,c5=0,c6=0,c7=0,c8=0,c9=0;
     printf("00 | 01 | 02\n-----------\n10 | 11 | 12\n-----------\n20 | 21 | 22\n");
     
     flg=1;
